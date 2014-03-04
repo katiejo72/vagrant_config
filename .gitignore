@@ -1,0 +1,12 @@
+#Ignore project folders and other files and folders
+#that are not part of the vagrant configuration
+
+/c_refreshers
+/legend
+/misskatiejo
+/practice
+/rails_projects
+/resume
+/sarraiah
+/tmp
+bashrc
