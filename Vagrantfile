@@ -50,7 +50,7 @@ Vagrant.configure("2") do |config|
 
   # Update aptitude
   config.vm.provision :shell, :inline => "sudo aptitude update -q2"
-  config.vm.provision :shell, :inline => "gem install chef --version 11.4.2 --no-rdoc --no-ri --conservative"
+  config.vm.provision :shell, :inline => "gem install chef --version 11.10.4 --no-rdoc --no-ri --conservative"
 
   # Enable provisioning with Puppet stand alone.  Puppet manifests
   # are contained in a directory path relative to this Vagrantfile.
